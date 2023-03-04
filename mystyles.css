@@ -1,0 +1,274 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-end;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(23, 33, 54);
+    font-family: Roboto, sans-serif;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.headers{
+    color:rgb(206, 203, 203);
+    align-items: center;
+    font-size:20px ;
+}
+
+.links{
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding:0px;
+    font-family: Roboto, sans-serif;
+    font-size:15px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgb(112, 112, 112);
+    
+
+}
+
+li{
+    padding-left:25px;
+}
+
+.container-one{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(23, 33, 54);
+    
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:white;
+    width:300px;
+    font-size: 15px;
+    
+    
+}
+
+h1{
+    font-size: 30px;
+    width:250px;
+    
+}
+
+.placeholder{
+    border: 5px solid gray;
+    background-color: gray;
+    width: 400px;
+    height:200px;
+    margin: 55px 0px 55px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(233, 229, 224);
+    
+
+
+}
+
+
+
+.work{
+    width:100px;
+    height:35px;
+    margin:5px 0px 0px 10px;
+    background-color: rgb(38, 194, 255);
+    border-radius: 5px ;
+    color: aliceblue;
+    border-style: none;
+   
+}
+
+.work:active{
+    background-color: rgb(38, 248, 255);
+
+}
+
+.rando{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    height: 300px;
+    flex-grow: 1;
+
+
+}
+.text{
+    font-size: 25px;
+    font-weight: bold;
+    margin:25px 50px 25px 50px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    
+    gap:52px;
+    
+   
+}
+
+.words{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 685px;
+    
+    font-size: 10px;
+    
+    text-align: center;
+    gap:52px;
+   
+}
+
+
+.box1,.box2,.box3,.box4{
+    border: 5px solid rgb(71, 120, 255);
+    width: 125px;
+    height: 125px;
+    border-radius: 5px;
+   
+}
+
+.quote-section{
+    background-color: rgb(218, 218, 218);
+    height: 300px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container2{
+    
+    height:150px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+    
+}
+
+.aquote{
+    font-size: 35px;
+    font-style: italic;
+}
+
+.quoted{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.call{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    
+}
+
+
+.container3{
+    border:5px solid rgb(24, 162, 248);
+    height: 100px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(24, 162, 248);
+    
+    
+}
+
+.plz{
+    width: 300px;
+    
+}
+
+
+.hell{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+}
+.yeah{
+    display: flex;
+    font-size: 11px;
+    vertical-align: middle;
+    text-align: center;
+    color:white;
+
+}
+
+
+.click{
+    background-color: rgb(24, 162, 248);
+    color:white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    
+    
+
+}
+
+.click:active{
+    background:rgb(24, 125, 248);
+
+}
+
+
+footer{
+    background-color:rgb(23, 33, 54);
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
